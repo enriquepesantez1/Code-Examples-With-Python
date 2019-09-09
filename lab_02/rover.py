@@ -1,4 +1,2 @@
-SpeedOfLight = 186000
-DistToMars = 34,000,000
-Time = DistToMars / SpeedOfLight
+Time = 34000000 / 186000
 print('It takes ', Time, ' seconds')
