@@ -1,5 +1,5 @@
 def title():
-  print("Crazy Nights")
+  print("Crazy Nights\u00A9")
   print('You live in a small town where every knows each other. However, the old Hag who you live next to was murdered!! It is your job as the towns sheriff to figure out who killed her.')
 def ending():
   print("The End")
