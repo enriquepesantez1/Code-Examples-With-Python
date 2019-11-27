@@ -42,7 +42,7 @@ def get_all_books():
 def page_not_found(e):
     return '404 - The resource could not be found', 404
 
-@app.route('/api/books', method=['GET'])
+@app.route('/api/books', methods=['GET'])
 def get_books():
     # Check if an ID was provided as part of the URL
     # If ID is provided, assign it to a variable.
